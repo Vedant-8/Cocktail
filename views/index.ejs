@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/home.css">
+    <title>BAR</title>
+</head>
+<body>
+    <main>
+        <section class="cocktail-details">
+            <h1><%= drink %></h1>
+            <h3><%= glass %></h3>
+            <h4>Instructions:</h4>
+            <p><%= instructions %></p>
+            <img src="<%= image %>" alt="Cocktail Image" width="280px" height="400px">
+            <h4><%= category %></h4>
+            <h3>Ingredients:</h3>
+            <ul>
+                <% ingredients.forEach(ingredient => { %>
+                    <li><%= ingredient %></li>
+                <% }); %>
+            </ul>
+        </section>
+        <form action="/" method="POST">
+            <button type="submit">Generate random cocktail</button>
+        </form>
+        <footer>Made by Vedant Kulkarni.</footer>
+    </main>
+    <footer class="rights">&#169 2023 Vedant Kulkarni. All rights reserved.</footer>
+</body>
+</html>
