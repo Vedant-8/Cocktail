@@ -1,0 +1,84 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('/images/Bartender_background1.jpg'); 
+    background-size: cover;
+    background-position: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: rgba(88, 87, 84, 0.89);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    text-align: center;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #f0be28;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #ba9a1c;
+}
+
+.cocktail-details {
+    margin-top: 20px;
+}
+
+h1 {
+    color: #ecf0f1; 
+    margin-top: 20px;
+}
+
+h3 {
+    color: #dde8ee; 
+}
+
+img {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px; 
+}
+
+h4 {
+    color: #1e1d1d;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 5px;
+    color: white;
+}
+
+p {
+    color: #dde8ee;
+    margin-top: 20px;
+}
+
+footer{
+    color: white;
+}
+
+.rights{
+    color: #f0be28;
+}
