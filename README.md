@@ -1,5 +1,5 @@
 # Cocktail
-Generate random cocktails, get it's recipe and all things that you need to make it...
+Generate random cocktails, get it's recipe and all the things that you need to make it...
 
 This project is made using thecocktaildb API
 
